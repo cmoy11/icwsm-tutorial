@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;500;700&display=swap');
+
+html {
+    scroll-padding-top: 18vh;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Jaldi', sans-serif;
+    color: #202020;
+}
+
+
+.table-container {
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+thead th {
+    border-bottom: 2px solid #000;
+}
+tbody tr:first-child td {
+    border-top: 1px solid #000;
+}
+tbody tr:last-child td {
+    border-bottom: 2px solid #000;
+}
+
+nav {
+    display: none;
+}
+
+header {
+    height: 12vh;
+    width: 90vw;
+    padding: 25px ;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #011f5d;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.logo img {
+    width: 65px;
+    /* height: 50px; */
+    margin: 7px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+h2 {
+    color: #9a0000;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.content {
+    padding: 40px;
+}
+
+.content > div {
+    margin-bottom: 30px;
+}
+
+strong {
+    color: #01205d;
+    font-weight: 700;
+}
+
+a {
+    color: #01205d;
+    text-decoration:underline;
+}
+
+.download_buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.download:hover {
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px #01205d solid;
+}
+
+.download {
+    padding: 10px;
+    background-color: #011f5d;
+    border-radius: 5px;
+    border: 1px #fff solid;
+}
+
+.download a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.download a:hover {
+    color: #01205d;
+}
+
+.profile_card img {
+    width: 100px;
+    border-radius: 50px;
+    
+}
+
+.profile_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    border: 1px #01205d solid;
+    width: 250px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.4em;
+    color: #01205d;
+    padding: 10px;
+}
+
+.profile_containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.profile_containers p {
+    text-align: center;
+}
+
+
+@media screen and (width > 550px) {
+    .content > div {
+        padding: 40px 100px 0px 100px;
+    }
+
+    header {
+        width: 94vw;
+    }
+
+    nav {
+        display: block;
+        background-color: #9a0000;
+        position: sticky;
+        top: 14vh;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        list-style: none;
+        justify-content: space-around;
+    }
+
+    .links a:hover {
+        cursor: pointer;
+    }
+
+    .profile_containers {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (width > 850px) {
+
+    .profile_card {
+        width: 350px;
+    }
+
+    .profile_containers {
+        flex-direction: row;
+        column-gap: 20px;
+        height: 100%;
+        /* justify-content: space-between; */
+        /* justify-content: top; */
+    }
+
+    header {
+        width: 97vw;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 2em
+    }
+
+    .content > div {
+        padding: 20px 300px 0px 300px;
+    }
+
+    .profile_card {
+        justify-self: top;
+    }
+
+    nav {
+        top: 18vh;
+    }
+
+    h2 {
+        font-size: 1.6em
+    }
+
+    .links a {
+        font-size: 1.2em;
+    }
+}
