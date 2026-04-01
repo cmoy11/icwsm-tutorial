@@ -46,15 +46,18 @@ nav {
 }
 
 header {
-    height: 12vh;
-    width: 90vw;
-    padding: 25px ;
+    display: block;
     position: sticky;
+    height: 12vh;
+    background-color: #011f5d;
+    padding: 25px;
     top: 0;
+}
+
+.h_content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #011f5d;
     align-items: center;
 }
 
@@ -184,15 +187,15 @@ h3 {
         padding: 40px 100px 0px 100px;
     }
 
-    header {
-        width: 94vw;
-    }
+    /* .h_content {
+        width: 93.9vw;
+    } */
 
     nav {
         display: block;
         background-color: #9a0000;
         position: sticky;
-        top: 14vh;
+        top: 16vh;
     }
 
     .links {
@@ -226,9 +229,9 @@ h3 {
         /* justify-content: top; */
     }
 
-    header {
-        width: 97vw;
-    }
+    /* header {
+        width: 96.5vw;
+    } */
 
     .logo img {
         width: 100px;
@@ -247,7 +250,7 @@ h3 {
     }
 
     nav {
-        top: 18vh;
+        top: 18.5vh;
     }
 
     h2 {
