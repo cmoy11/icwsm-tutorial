@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;500;700&display=swap');
 
 html {
-    scroll-padding-top: 18vh;
+    scroll-padding-top: 25vh;
     scroll-behavior: smooth;
 }
 
@@ -208,7 +208,7 @@ h3 {
     }
 
     .profile_containers {
-        align-items: flex-start;
+        align-items: center;
     }
 }
 
@@ -239,7 +239,7 @@ h3 {
     }
 
     .content > div {
-        padding: 20px 300px 0px 300px;
+        padding: 20px 18vw 0px 18vw;
     }
 
     .profile_card {
@@ -256,5 +256,9 @@ h3 {
 
     .links a {
         font-size: 1.2em;
+    }
+
+    .profile_containers {
+        align-items: flex-start;
     }
 }
