@@ -95,7 +95,7 @@ h2 {
 
 p {
     font-size: 1.2em;
-    text-align: justify;
+    text-align: center;
 }
 
 .content {
@@ -212,6 +212,10 @@ h3 {
 
     .profile_containers {
         align-items: center;
+    }
+
+    p {
+        text-align: justify;
     }
 }
 
