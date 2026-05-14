@@ -50,7 +50,7 @@ header {
     position: sticky;
     height: 12vh;
     background-color: #011f5d;
-    padding: 25px;
+    padding: 1vh;
     top: 0;
 }
 
@@ -195,7 +195,7 @@ h3 {
         display: block;
         background-color: #9a0000;
         position: sticky;
-        top: 16vh;
+        top: 14vh;
     }
 
     .links {
@@ -252,10 +252,10 @@ h3 {
     .profile_card {
         justify-self: top;
     }
-
+/* 
     nav {
-        top: 18.5vh;
-    }
+        top: 12vh;
+    } */
 
     h2 {
         font-size: 1.6em
